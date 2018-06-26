@@ -1,0 +1,15 @@
+{
+  "name": "tree-shake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cp -r test-module node_modules && webpack --mode production --display-used-exports"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
